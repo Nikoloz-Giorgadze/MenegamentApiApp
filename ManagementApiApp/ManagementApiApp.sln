@@ -13,6 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementApi.Infrastructur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementApi.Persistance", "ManagementApi.Persistance\ManagementApi.Persistance.csproj", "{85BBFD2F-8B4F-473B-AC6B-BE906896ADF6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{9893D712-6AB7-443E-9C57-A1ECA589E15B}"
+	ProjectSection(SolutionItems) = preProject
+		Script.Sql = Script.Sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
